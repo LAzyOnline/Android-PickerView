@@ -7,6 +7,9 @@ buildscript {
             name 'Google'
         }
         jcenter()
+        maven{
+            url 'https://dl.bintray.com/lazyfeng/lazyfeng'
+        }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.6.1'
@@ -23,6 +26,9 @@ allprojects {
         maven {
             url 'https://maven.google.com/'
             name 'Google'
+        }
+        maven{
+            url 'https://dl.bintray.com/lazyfeng/lazyfeng'
         }
     }
 }
